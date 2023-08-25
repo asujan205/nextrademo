@@ -27,12 +27,12 @@ export default {
 
   // This is done for the docs repository link
 
-  docsRepositoryBase: "https://github.com/asujan205/nextrademo",
+  docsRepositoryBase: "https://github.com/asujan205/nextrademo/blob/master/",
 
   // This is done for the edit page on github link
 
   editLink: {
-    text: "Edit this page on GitHub sujan",
+    text: "Edit this page on GitHub ",
   },
   feedback: {
     content: "Is this page helpful?",

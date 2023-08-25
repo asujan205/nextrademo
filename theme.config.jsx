@@ -32,7 +32,7 @@ export default {
 
   // This is done for the docs repository link
 
-  docsRepositoryBase: "https://github.com/finnoto/fn-new-web",
+  docsRepositoryBase: "https://github.com/asujan205/nextrademo",
 
   // This is done for the edit page on github link
 

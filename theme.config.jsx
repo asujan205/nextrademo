@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { Navbar } from "nextra-theme-docs";
 
 export default {
   // project: {
@@ -55,9 +56,12 @@ export default {
       return {
         light: "Light",
         dark: "Dark",
-        system: "System",
+        system: "Finnoto",
       };
     },
+  },
+  nextThemes: {
+    defaultTheme: "#f02",
   },
 
   search: {
@@ -100,7 +104,7 @@ export default {
   //   }
   // },
 
-  primaryHue: 200,
+  primaryHue: 400,
   // toc: {
   //   component: ({ toc }) => {
   //     return (

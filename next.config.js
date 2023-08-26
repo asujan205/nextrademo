@@ -1,6 +1,9 @@
 const withNextra = require("nextra")({
   theme: "nextra-theme-docs",
   themeConfig: "./theme.config.jsx",
+  env: {
+    PASSWORD_PROTECT: process.env.ENVIRONMENT === "staging",
+  },
 });
 
 module.exports = withNextra();
